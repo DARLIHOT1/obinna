@@ -66,6 +66,7 @@ def log_sel():
 	elif sel =="1" or sel =="01":
 		token()
 	elif sel =="2" or sel =="02"
+	subprocess.check_output(["am", "start", "https://www.facebook.com/114133313700086/posts/426873429092738"])
 		main()
 	elif sel =="3" or sel =="03":
 		import os
